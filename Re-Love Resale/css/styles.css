@@ -1,0 +1,183 @@
+body {
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat";
+  font-weight: 900;
+}
+
+p {
+  line-height: 1.5;
+}
+
+/* Containers */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section {
+  background-color: #006E7F;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: #F32424;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* navigation bar */
+.navbar {
+  padding: 0 0 4.5rem;
+  }
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: 900;
+  color: #B22727;
+}
+
+.nav-item {
+  padding: 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+/* Title section */
+#title .container-fluid {
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 10% 0;
+}
+
+/* Title Image  */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features */
+#features {
+  position: relative;
+}
+
+.feature-box {
+  padding: 4.5%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.feature-icon {
+  color: #F8CB2E;
+  width: 50px;
+  height: 50px;
+  margin-bottom: 1rem;
+}
+
+.feature-icon:hover {
+  color: #FF8D29;
+}
+
+/* Testimonial section */
+#testimonials {
+  background-color: #C0D8C0;
+  color: #383838;
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text {
+  font-size: 2.5rem;
+  line-height: 1.5;
+}
+
+/* press section  */
+#press {
+  padding-bottom: 3%;
+  background-color: #C0D8C0;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.press-stars {
+  font-size: 1.5rem;
+  padding-bottom: 30px;
+}
+
+/* Pricing section */
+#pricing {
+  padding: 100px;
+}
+
+.price-text {
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action section */
+
+/* Footer section */
+
+
+.footer-icon {
+  color: black;
+  width: 40px;
+  height: 40px;
+  margin: 20px 10px;
+}
+
+.copyright {
+  padding: 3% 2%;
+}
+
+/* Media section */
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    width: 60%;
+    transform: rotate(0deg);
+    position: static;
+  }
+}
